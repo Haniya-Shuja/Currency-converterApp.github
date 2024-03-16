@@ -1,0 +1,81 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+   
+      background-image: url('./back-2.jpg');
+      background-size: cover; /* This ensures the background image covers the entire body */
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container{
+    background-color: rgb(81, 114, 168);
+        padding: 10px 24px;
+    border-radius: 20px;
+    width: 490px;
+  }
+  
+  h1{
+    color: #c83ccd;
+    margin-left: 72px;
+    margin-bottom: 0.5em;
+    font-family: sans-serif;
+  }
+  
+  
+  .container .box{
+    width: 100%;
+    display: flex;
+  }
+  
+  .box div{
+    width: 100%;
+  }
+  
+  select{
+    width: 95%;
+    height: 40px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background: #3db2e4;
+    outline: none;
+    color: black;
+    margin: 0.2em 0;
+    padding: 0 1em;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  
+  input{
+    width: 95%;
+    height: 40px;
+    font-size: 1em;
+    margin: 0.2em 0;
+    border-radius: 10px;
+    border: none;
+    background: #edebd1;
+    outline: none;
+    padding: 0 1em;
+  }
+  
+  
+  .btn{
+    width: 98%;
+    height: 40px;
+    background: #e293bc;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 0.5em 0;
+  }
